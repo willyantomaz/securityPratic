@@ -1,4 +1,4 @@
-package br.com.usacucar.securityPratic.auth;
+package br.com.usacucar.securityPratic.controller;
 
 import br.com.usacucar.securityPratic.dto.UsuarioDTO;
 import jakarta.validation.Valid;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/auth")
-public class AutenticaUsuario {
+public class AutenticaUsuarioController {
 
     @Autowired
     private AuthenticationManager manager;

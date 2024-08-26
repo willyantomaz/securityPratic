@@ -1,4 +1,4 @@
-package br.com.usacucar.securityPratic.auth;
+package br.com.usacucar.securityPratic.service;
 
 import br.com.usacucar.securityPratic.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
